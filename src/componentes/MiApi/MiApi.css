@@ -1,0 +1,40 @@
+.games {
+  height: calc(100vh - 20rem);
+  overflow-y: auto;
+  margin: 0 !important;
+}
+
+.col {
+  margin: 0 auto;
+  max-height: 20rem;
+  max-width: 18rem !important;
+}
+
+.card {
+  border: none !important;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.card-footer .badge{
+  margin: 0 .7rem;
+}
+
+@media screen and (min-width: 576px) {
+  .games {
+    height: calc(100vh - 17rem);
+  }
+
+  .col {
+    margin: 0;
+  }
+}

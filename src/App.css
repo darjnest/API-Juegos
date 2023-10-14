@@ -1,0 +1,39 @@
+body {
+  background-color: #262b31;
+  color: #aaa;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+}
+
+header {
+  padding: 1.5rem 1rem;
+}
+
+header,
+footer {
+  background-color: #1d1f22;
+}
+
+header i {
+  margin-right: 1rem;
+}
+
+footer,
+.footer-icon a {
+  color: #eee;
+}
+
+.footer-icon a {
+  font-size: 1.5rem;
+  margin: 0 0.3rem;
+}
+
+.footer-icon a:hover {
+  color: #4799eb;
+}
